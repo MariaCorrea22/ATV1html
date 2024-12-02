@@ -60,3 +60,36 @@ todas as brigas só fizeram foi fortalecer o casal<p>
 <h3> Para acompanha mais um pouco fique de olho nos destaques do instagram dos dois<h3>
 <p>  <a href="https://www.instagram.com/bernardoxavier38/?utm_source=ig_web_button_share_sheet">Instagram do Bernardo</a>
 <p><a target href="https://www.instagram.com/correa.duda_lopes/"> Instagram da Duda</a target>
+<form action="processar.php" methid="post">
+<!--agrupamento de dados pessoais-->
+<input type="text" placeholder="Digite seu nome"><br>
+<input type="email" placeholder="Digite seu email"><br>
+<input type="date"><br>
+<input type="password" placeholder="Digite sua senha"><br>
+<input type="tel" placeholder="Digite seu telefone"><br>
+
+<!--agrupamento de seleções-->
+<label for="pais">selecione um país:</label><br>
+<select id="pais">
+<option value="brasil">Brasil</option>
+<option value="eua">Estados Unidos</option>
+<option value="canada">Canadá</option>
+</select><br>
+
+gênero:
+<label><input type="radio" name="genero" value="masculino" required>Masculino</label>
+<label><input type="radio" name="genero" value="feminino" required>Feminino</label>
+<label><input type="radio" name="outro" required>Outro</label>
+<br>
+
+<input type="checkbox" id="termos" name="termos" required>
+<label for="termos">Aceito os termos</label><br>
+
+
+<button type="submit">Enviar</button>
+<button type="reset">Redefinir</button>
+<br>
+<!--Comentarios-->
+<p> Esse formulario tem o objetivo de você receber notificações de atualizações do site</p>
+</body>
+</html>
